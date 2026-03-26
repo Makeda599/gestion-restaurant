@@ -4,7 +4,7 @@ require_once("dataWeb.php");
 require_once("nav.php");
 
 
-$page = $_REQUEST["page"] ?? "ajout";
+$page = $_REQUEST["page"] ?? "liste";
 
 if($page=="ajout"){
     $categories =getAllCategorie();
